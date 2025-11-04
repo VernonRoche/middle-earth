@@ -58,7 +58,8 @@ public class FactionsME {
         register(context, factionRegistryEntryLookup, ISENGARD, IsengardFactionPool.ISENGARD);
         register(context, factionRegistryEntryLookup, SHIRE, ShireFactionPool.SHIRE);
         register(context, factionRegistryEntryLookup, BRIGAND, BrigandFactionPool.BRIGAND);
-        // Add Dol Guldur
+        // TODO : Add Dol Guldur
+        // TODO : Fix npc pools
     }
 
     private static Faction register(Registerable<Faction> context, RegistryEntryLookup<Faction> factionRegistryEntryLookup, RegistryKey<Faction> key, Faction faction) {
